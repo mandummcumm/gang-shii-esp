@@ -24,8 +24,8 @@ local function createESP(Player)
                 if OnScreen then
                     local X = Pos.X
                     local Y = Pos.Y
-                    Name.Position = Vector2.new(X, Y - 20)
-                    Box.Size = Vector2.new(1700 / Pos.Z, 2320/ Pos.Z)
+                    Name.Position = Vector2.new(X, Y - 33)
+                    Box.Size = Vector2.new(2450 / Pos.Z, 3850/ Pos.Z)
                     Box.Position = Vector2.new(X - Box.Size.X / 2, Y - Box.Size.Y /9)
                     Name.Visible = true
                     Box.Visible = true
